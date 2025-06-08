@@ -7,3 +7,9 @@ export interface Users {
   token : string,
 }
 
+// interface login
+export interface AuthLoginData {
+  email: string;
+  password: string;
+}
+
