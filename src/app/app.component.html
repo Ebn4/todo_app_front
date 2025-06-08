@@ -1,15 +1,5 @@
 <div>
-  <nav class="bg-white-800 shadow-2xl w-[80%]  m-auto p-4">
-    <div class="flex items-center justify-between">
-      <img class="h-20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy539p9OcaiMxj1MAMGqWPH0xSaim0maWBFw&s" alt="orange">
-      <ul class="flex justify-between  w-[20%] mr-20">
-        <li routerLinkActive="bg-blue-300"><a class="hover:bg-blue-300 py-4 px-10 rounded-md" [routerLink]="['']" >Home</a></li>
-        <li routerLinkActive="bg-blue-300"><a class="hover:bg-blue-300 py-4 px-10 rounded-md" [routerLink]="['/register']" >Register</a></li>
-        <li routerLinkActive="bg-blue-300"><a class="hover:bg-blue-300 py-4 px-10 rounded-md" [routerLink]="['/login']" >Login</a></li>
-      </ul>
-    </div>
-
-
-  </nav>
+  <app-navbar></app-navbar>
 </div>
 <router-outlet></router-outlet>
+<app-footer></app-footer>
